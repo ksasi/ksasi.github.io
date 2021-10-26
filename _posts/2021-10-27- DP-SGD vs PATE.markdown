@@ -3,7 +3,7 @@ layout: post
 title:  "DP-SGD vs PATE: Which Has Less Disparate Impact on Model Accuracy?"
 date:   2021-10-27 22:21:59 +00:00
 image: /images/jcdl2019.png
-categories: research
+categories: Publications
 author: "Sasikanth Kotti"
 authors: "Archit Uniyal, Rakshit Naidu, <strong>Sasikanth Kotti</strong>, Sahib Singh, Patrik Joslin Kenfack, Fatemehsadat Mireshghallah, Andrew Trask"
 venue: "International Conference on Machine Learning (2021) Workshop - ML4data"
