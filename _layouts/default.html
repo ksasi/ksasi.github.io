@@ -13,6 +13,72 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+  <style type="text/css">
+    a {
+    color: #1772d0;
+    text-decoration:none;
+    }
+    a:focus, a:hover {
+    color: #f09228;
+    text-decoration:none;
+    }
+    body,td,th,tr,p,a {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px
+    }
+    strong {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+    heading {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 22px;
+    }
+    papertitle {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700
+    }
+    name {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 32px;
+    }
+    .one
+    {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    }
+    .two
+    {
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    transition: opacity .4s ease-in-out;
+    -moz-transition: opacity .4s ease-in-out;
+    -webkit-transition: opacity .4s ease-in-out;
+    }
+    .fade {
+     transition: opacity .4s ease-in-out;
+     -moz-transition: opacity .4s ease-in-out;
+     -webkit-transition: opacity .4s ease-in-out;
+    }
+    .blinking{
+    animation:blinkingText 2.0s infinite;
+   }
+     @keyframes blinkingText{
+     0%{     color: #FF0000;    }
+     49%{    color: transparent; }
+     50%{    color: transparent; }
+     99%{    color:transparent;  }
+     100%{   color: #FF0000;    }
+  }
+
+    span.highlight {
+        background-color: #ffffd0;
+    }
+  </style>
+
 </head>
 
 
@@ -42,7 +108,8 @@
                 <a href="https://github.com/ksasi">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=xu9ngo8AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://twitter.com/kotti_sasikanth"> Twitter </a> &nbsp;/&nbsp;
-                <a href="https://www.linkedin.com/in/sasikanth-kotti/"> LinkedIn </a>
+                <a href="https://www.linkedin.com/in/sasikanth-kotti/"> LinkedIn </a> &nbsp;/&nbsp;
+                <a href="https://ksasi.github.io/ai-notes/"> Blog </a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -50,6 +117,30 @@
             </td>
           </tr>
         </table>
+
+
+        <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+          <tbody><tr>
+            <td width="67%" valign="middle">
+                    <p>
+                    <h2>News</h2>
+                    <ul>
+                      
+                        <li>
+    <b>[Jan 2022]</b>  Accepted to participate in 
+    <a href="https://sites.google.com/view/researchweek2022">Research Week with Google</a> <span class="blinking">(NEW)</span><br />
+                      </li>
+    
+                       <li>
+    <b>[May 2022]</b> Secured <a href="https://ksasi.github.io/pdfs/NoCodeML.pdf">2nd place</a> in NoCode ML a team event conducted by Techfest, IIT Bombay  <span class="blinking">(NEW)</span><br />
+                      </li>
+
+                      <li>
+    <b>[July 2021]</b> Secured 2nd place in flax-jax-community-week a team event conducted by Hugging Face for the project   <a href="https://ksasi.github.io/pdfs/Hugging_Face_Jax.pdf">CLIP+NeRF: Fewshot Learning, Putting NeRF on a Diet</a>
+                      </li>
+            </tr>
+        </tbody></table>
+
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
