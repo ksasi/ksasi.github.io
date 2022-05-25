@@ -10,4 +10,5 @@ author: "Sasikanth Kotti"
 authors: "<strong>Sasikanth Kotti*</strong>, Nikhila Dhulipalla, Adhun Thalekkara"
 report: /pdfs/FairMIA_The_heuristic_based_Fair_Influence_Maximization.pdf
 presentation: /pdfs/FairMIA_Project_Presentation.pdf
+code: https://github.com/ksasi/fairMIA
 ---
