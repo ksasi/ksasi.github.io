@@ -128,7 +128,7 @@
                       
                         <li>
     <b>[Jan 2022]</b>  Accepted to participate in 
-    <a href="https://sites.google.com/view/researchweek2022">Research Week with Google</a> <span class="blinking">(NEW)</span><br />
+    <a href="https://sites.google.com/view/researchweek2022">Research Week with Google</a> <a href="https://ksasi.github.io/pdfs/Sasikanth Kotti_Google_Research_Week_2022.pdf"> [certificate]</a><span class="blinking">(NEW)</span><br />
                       </li>
     
                        <li>
@@ -213,6 +213,12 @@
               {{ post.date | date: "%Y-%m-%d" }}
 
               <br>
+              {% if post.report %}
+              <a href="{{post.report}}">paper</a> /
+              {% endif %}
+              {% if post.presentation %}
+              <a href="{{post.presentation}}">paper</a> /
+              {% endif %}
               {% if post.website %}
               <a href="{{post.website}}">website</a> /
               {% endif %}
