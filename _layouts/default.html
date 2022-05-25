@@ -200,8 +200,7 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          {% _stub = site.posts.rewind() %}
-          {% _stub = post.categories.rewind() %}
+          {% debug %}
           {% for post in site.posts %}
           {% for cat in post.categories %}
           {% if cat != 'Publications' %}
