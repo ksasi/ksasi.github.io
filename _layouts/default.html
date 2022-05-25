@@ -203,12 +203,12 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           {% for post in site.posts %}
           {% for cat in post.categories %}
-          {% if cat == 'IIT Jodhpur' %}
+          {% if cat == 'Projects' %}
           <tr>
             <td style="padding:2.5%;width:90%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              <em>{{post.categories}} {{post.course}}</em>
+              <em>{{post.venue}} {{post.course}}</em>
               <br>
               {{ post.date | date: "%Y-%m-%d" }}
               

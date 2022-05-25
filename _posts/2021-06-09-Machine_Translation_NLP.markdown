@@ -3,7 +3,8 @@ layout: post
 title:  "Database Tuning with NLP"
 date:   2022-04-18 22:21:59 +00:00
 image: /images/db_tuning_nlp.png 
-categories: IIT Jodhpur
+categories: Projects
+venue: IIT Jodhpur
 course: "CSL7090: Software and Data Engineering"
 author: "Sasikanth Kotti"
 authors: "<strong>Sasikanth Kotti*</strong>"
