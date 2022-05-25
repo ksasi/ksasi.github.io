@@ -207,11 +207,10 @@
             <td style="padding:2.5%;width:90%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
-              {{post.authors}}
+              <em>{{post.categories}} {{post.course}}</em>
+              <br>
+              {{ post.date | date: "%Y-%m-%d" }}
 
-              <br>
-              <em>{{post.venue}}</em>
-              <br>
               {% if post.report %}
               <a href="{{post.report}}">report</a> /
               {% endif %}
