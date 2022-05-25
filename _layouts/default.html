@@ -201,29 +201,29 @@
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat != 'Publications' %}
+          {% for post2 in site.posts %}
+          {% for cat2 in post2.categories %}
+          {% if cat2 != 'Publications' %}
           <tr>
             <td style="padding:2.5%;width:90%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
+              <h3>{{post2.title}}</h3>
               <br>
-              {{post.authors}}
+              {{post2.authors}}
 
               <br>
-              <em>{{post.venue}}</em>
+              <em>{{post2.venue}}</em>
               <br>
-              {% if post.report %}
-              <a href="{{post.report}}">report</a> /
+              {% if post2.report %}
+              <a href="{{post2.report}}">report</a> /
               {% endif %}
-              {% if post.presentation %}
-              <a href="{{post.presentation}}">presentation</a> /
+              {% if post2.presentation %}
+              <a href="{{post2.presentation}}">presentation</a> /
               {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              {% if post2.code %}
+              <a href="{{post2.code}}">code</a> /
               {% endif %}
               <p></p>
-              {{ post.excerpt }}
+              {{ post2.excerpt }}
             </td>
           </tr>
           {% endif %}
