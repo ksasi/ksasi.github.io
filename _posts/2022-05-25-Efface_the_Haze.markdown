@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Efface the Haze"
-date:   2022-5-25 22:21:59 +00:00
+date:   2022-05-25 22:21:59 +00:00
 categories: Projects
 author: "Sasikanth Kotti"
 authors: "<strong>Sasikanth Kotti*</strong>, Nikhila Dhulipalla, Adhun Thalekkara"
