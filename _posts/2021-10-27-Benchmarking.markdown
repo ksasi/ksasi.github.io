@@ -2,6 +2,7 @@
 layout: post
 title:  "Benchmarking Differentially Private Residual Networks for Medical Imagery"
 date:   2021-10-27 22:21:59 +00:00
+image: /images/Benchmarking.png
 categories: Publications
 author: "Sasikanth Kotti"
 authors: "Sahib Singh, Harshvardhan Sikka, <strong>Sasikanth Kotti*</strong>, Andrew Trask"

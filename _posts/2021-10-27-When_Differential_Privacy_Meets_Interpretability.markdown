@@ -2,6 +2,7 @@
 layout: post
 title:  "When Differential Privacy Meets Interpretability: A Case Study"
 date:   2021-10-27 22:21:59 +00:00
+image: /images/Interpretability.png
 categories: Publications
 author: "Sasikanth Kotti"
 authors: "Rakshit Naidu, Aman Priyanshu, Aadith Kumar, <strong>Sasikanth Kotti*</strong>, Haofan Wang, Fatemehsadat Mireshghallah"
