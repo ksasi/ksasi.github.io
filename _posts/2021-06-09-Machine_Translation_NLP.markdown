@@ -2,7 +2,7 @@
 layout: post
 title:  "Machine Translation"
 date:   2021-06-09 22:21:59 +00:00
-image: /images/db_tuning_nlp.png 
+image: /images/Machine_Translation.png 
 categories: Projects
 venue: IIT Jodhpur
 course: "CSL7340: Natural Language Processing"

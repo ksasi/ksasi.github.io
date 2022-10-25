@@ -2,7 +2,7 @@
 layout: post
 title:  "FairMIA: The heuristic based Fair Influence Maximization"
 date:   2021-11-15 22:21:59 +00:00
-image: /images/fairmia.png 
+image: /images/FairMIA.png 
 categories: Projects
 venue: IIT Jodhpur
 course: "CSL7390: Social Network Analysis"

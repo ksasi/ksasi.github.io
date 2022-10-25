@@ -2,7 +2,7 @@
 layout: post
 title:  "Efface the Haze"
 date:  2021-06-12 22:21:59 +00:00
-image: /images/efface.png 
+image: /images/Efface_the_Haze.png 
 categories: Projects
 venue: IIT Jodhpur
 course: "CSL7360: Computer Vision"
