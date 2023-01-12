@@ -94,8 +94,8 @@
                 Sasikanth Kotti
               </h1>
               <p>
-                I'm a part-time Master's student in Artificial Intelligence (M.Tech) at <a href="https://iitj.ac.in"> IITJ-Indian Institute of Technology Jodhpur</a>. 
-                I'm currently being advised by <a href="http://home.iitj.ac.in/~mvatsa/">Dr. Mayank Vatsa</a> and <a href="http://home.iitj.ac.in/~richa/">Dr. Richa Singh</a> for my Master's Thesis on <b>"Bias and Fairness in Low Resolution(Very) Image Recognition"</b> at <a href="http://iab-rubric.org/">IAB lab</a>.
+                I was a part-time Master's student in Artificial Intelligence (M.Tech) at <a href="https://iitj.ac.in"> IITJ-Indian Institute of Technology Jodhpur</a>. 
+                I was advised by <a href="http://home.iitj.ac.in/~mvatsa/">Dr. Mayank Vatsa</a> and <a href="http://home.iitj.ac.in/~richa/">Dr. Richa Singh</a> for my Master's Thesis on <b>"Bias and Fairness in Low Resolution(Very) Image Recognition"</b> at <a href="http://iab-rubric.org/">IAB lab</a>.
               </p>
               <p>
                 My current research interests span Computer Vision, Trusted AI,  Machine Learning and Deep learning areas.
@@ -130,13 +130,18 @@
                     <ul>
 
                       <li>
+        <b>[Jan 2023]</b>  Accepted to participate in 
+        <a href="https://sites.google.com/view/researchweek2023">Research Week with Google 2023</a> <!--a href="https://ksasi.github.io/pdfs/Sasikanth Kotti_Google_Research_Week_2022.pdf"> [certificate]</a--><span class="blinking">(NEW)</span><br />
+                      </li>
+
+                      <li>
       <b>[July 2022]</b>  Accepted to 
-      <a href="http://cvit.iiit.ac.in/summerschool2022/">CVIT 6th Summer School on AI (With focus on Computer Vision & Machine Learning)</a> <a href="https://ksasi.github.io/pdfs/SS2022_Certificate-242.pdf"> [certificate]</a><span class="blinking">(NEW)</span><br />
+      <a href="http://cvit.iiit.ac.in/summerschool2022/">CVIT 6th Summer School on AI (With focus on Computer Vision & Machine Learning)</a> <a href="https://ksasi.github.io/pdfs/SS2022_Certificate-242.pdf"> [certificate]</a><span class="blinking"></span><br />
                       </li>
                       
                         <li>
     <b>[Jan 2022]</b>  Accepted to participate in 
-    <a href="https://sites.google.com/view/researchweek2022">Research Week with Google</a> <a href="https://ksasi.github.io/pdfs/Sasikanth Kotti_Google_Research_Week_2022.pdf"> [certificate]</a><span class="blinking">(NEW)</span><br />
+    <a href="https://sites.google.com/view/researchweek2022">Research Week with Google 2022</a> <a href="https://ksasi.github.io/pdfs/Sasikanth Kotti_Google_Research_Week_2022.pdf"> [certificate]</a><span class="blinking"></span><br />
                       </li>
     
                        <li>
@@ -148,6 +153,51 @@
                       </li>
             </tr>
         </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Master's Thesis</h2>
+            </td>
+          </tr>
+        </table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            {% for post in site.posts %}
+            {% for cat in post.categories %}
+            {% if cat == 'Thesis' %}
+            <tr>
+              <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              </td>
+              <td style="padding:2.5%;width:90%;vertical-align:middle">
+                <h3>{{post.title}}</h3>
+                <br>
+                <em>{{post.venue}} {{post.course}}</em>
+                <br>
+                {{ post.date | date: "%Y-%m-%d" }}
+                
+                <br>
+                {% if post.report %}
+                <a href="{{post.report}}">report</a> /
+                {% endif %}
+                {% if post.presentation %}
+                <a href="{{post.presentation}}">presentation</a> /
+                {% endif %}
+                {% if post.code %}
+                <a href="{{post.code}}">code</a> /
+                {% endif %}
+                <p></p>
+                {{ post.excerpt }}
+              </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+            {% endfor %}
+          </table>
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
