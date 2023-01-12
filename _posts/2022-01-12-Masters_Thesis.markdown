@@ -6,7 +6,6 @@ image: /images/Fair_Distillation.png
 categories: Thesis
 venue: IIT Jodhpur
 course: " - Masters Thesis"
-authors: "<strong>Sasikanth Kotti*</strong>
 report: /pdfs/MT19AIE308_Report.pdf
 presentation: /pdfs/MT19AIE308_slide.pdf
 code: https://github.com/ksasi/Masters-Thesis
