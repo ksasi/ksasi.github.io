@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Unlocking Voices, Unleashing Possibilities: Your Words, Our Recognition!"
-date:  2024-06-12 22:21:59 +00:00
+date:  2024-05-02 22:21:59 +00:00
 image: /images/TSConformer.png 
 categories: Projects
 venue: IIT Jodhpur
